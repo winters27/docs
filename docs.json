@@ -1,47 +1,117 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
   "name": "Apex Automation",
+  "colors": {
+    "primary": "#658a95",
+    "light": "#95b6bd",
+    "dark": "#4a6b75"
+  },
+  "favicon": "/favicon.png",
   "logo": {
     "light": "/logo.png",
     "dark": "/logo.png"
   },
-  "favicon": "/favicon.png",
-  "colors": {
-    "primary": "#658a95",
-    "light": "#95b6bd",
-    "dark": "#658a95"
-  },
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "get-started/introduction",
-        "get-started/first-time-setup"
-      ]
-    },
-    {
-      "group": "Configuration",
-      "pages": [
-        "configuration/setup-and-requirements",
-        "configuration/game-shortcut",
-        "configuration/in-game-settings",
-        "configuration/bot-configuration"
-      ]
-    },
-    {
-      "group": "Advanced",
-      "pages": [
-        "advanced/shadow-pc"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "get-started/introduction",
+              "get-started/system-requirements",
+              "get-started/installation",
+              "get-started/first-time-setup",
+              "get-started/quick-start-guide"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/setup-and-requirements",
+              "configuration/game-shortcut",
+              "configuration/in-game-settings",
+              "configuration/bot-configuration",
+              "configuration/profile-management",
+              "configuration/performance-tuning"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/xp-farming",
+              "features/automated-gameplay",
+              "features/safety-features",
+              "features/customization-options"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/common-issues",
+              "troubleshooting/error-codes",
+              "troubleshooting/performance-problems",
+              "troubleshooting/compatibility"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Advanced",
+        "groups": [
+          {
+            "group": "Advanced Usage",
+            "pages": [
+              "advanced/shadow-pc",
+              "advanced/script-customization",
+              "advanced/multiple-accounts",
+              "advanced/api-integration"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/best-practices",
+              "guides/optimization-tips",
+              "guides/safety-guidelines"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/settings-reference",
+              "reference/keybindings",
+              "reference/faq"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Support",
+          "href": "https://discord.gg/apexautomation",
+          "icon": "message-circle"
+        },
+        {
+          "anchor": "Downloads",
+          "href": "https://github.com/winters27/apex-automation/releases",
+          "icon": "download"
+        }
       ]
     }
-  ],
+  },
   "appearance": {
     "default": "dark",
     "strict": true
   },
   "seo": {
     "title": "Apex Automation Docs",
-    "description": "The official documentation for Apex Automation, the ultimate Call of Duty XP farming bot."
+    "description": "The official documentation for Apex Automation, the ultimate Call of Duty XP farming bot.",
+    "keywords": ["apex automation", "call of duty", "xp farming", "bot", "automation"]
   },
   "navbar": {
     "links": [
@@ -55,5 +125,13 @@
     "socials": {
       "discord": "https://discord.gg/apexautomation"
     }
+  },
+  "feedback": {
+    "enabled": true,
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "search": {
+    "enabled": true
   }
 }

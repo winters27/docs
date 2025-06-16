@@ -1,32 +1,37 @@
-# Mintlify Starter Kit
+# Apex Automation Documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+> The ultimate Call of Duty XP farming bot documentation
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/apexautomation)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-live-brightgreen.svg)](https://your-docs-url.mintlify.app)
 
-### Development
+## 🚀 Quick Start
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+1. **[System Requirements](get-started/system-requirements.md)** - Check if your system is compatible
+2. **[Installation](get-started/installation.md)** - Download and install Apex Automation
+3. **[First Time Setup](get-started/first-time-setup.md)** - Configure your bot for first use
+4. **[Quick Start Guide](get-started/quick-start-guide.md)** - Start farming XP in minutes
 
-```
+## 📚 Documentation Sections
+
+- **[Get Started](get-started/)** - Installation and initial setup
+- **[Configuration](configuration/)** - Detailed configuration guides
+- **[Features](features/)** - Core functionality documentation
+- **[Troubleshooting](troubleshooting/)** - Common issues and solutions
+- **[Advanced](advanced/)** - Advanced usage and customization
+- **[Guides](guides/)** - Best practices and optimization tips
+- **[Reference](reference/)** - Complete settings and FAQ reference
+
+## 🔧 Development
+
+This documentation is built with [Mintlify](https://mintlify.com).
+
+### Local Development
+
+```bash
+# Install Mintlify CLI
 npm i -g mintlify
-```
 
-Run the following command at the root of your documentation (where docs.json is)
-
-```
+# Run development server
 mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
