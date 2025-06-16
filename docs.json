@@ -8,12 +8,12 @@
     "dark": "#4a6b75"
   },
   "favicon": "/favicon.png",
+  "logo": {
+    "light": "/favicon.png",
+    "dark": "/favicon.png"
+  },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "mailto:your-support-email@example.com"
-      },
       {
         "label": "Support Server",
         "href": "https://discord.gg/apexautomation"
@@ -26,89 +26,37 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Documentation",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "get-started/introduction",
-              "get-started/system-requirements",
-              "get-started/installation",
-              "get-started/first-time-setup",
-              "get-started/quick-start-guide"
-            ]
-          },
-          {
-            "group": "Configuration",
-            "pages": [
-              "configuration/setup-and-requirements",
-              "configuration/game-shortcut",
-              "configuration/in-game-settings",
-              "configuration/bot-configuration",
-              "configuration/profile-management",
-              "configuration/performance-tuning"
-            ]
-          },
-          {
-            "group": "Features",
-            "pages": [
-              "features/xp-farming",
-              "features/automated-gameplay",
-              "features/safety-features",
-              "features/customization-options"
-            ]
-          },
-          {
-            "group": "Troubleshooting",
-            "pages": [
-              "troubleshooting/common-issues",
-              "troubleshooting/error-codes",
-              "troubleshooting/performance-problems",
-              "troubleshooting/compatibility"
-            ]
-          }
+        "group": "Get Started",
+        "pages": [
+          "get-started/introduction",
+          "get-started/system-requirements"
         ]
       },
       {
-        "tab": "Advanced",
-        "groups": [
-          {
-            "group": "Advanced Usage",
-            "pages": [
-              "advanced/shadow-pc",
-              "advanced/script-customization",
-              "advanced/multiple-accounts",
-              "advanced/api-integration"
-            ]
-          },
-          {
-            "group": "Guides",
-            "pages": [
-              "guides/best-practices",
-              "guides/optimization-tips",
-              "guides/safety-guidelines"
-            ]
-          },
-          {
-            "group": "Reference",
-            "pages": [
-              "reference/settings-reference",
-              "reference/keybindings",
-              "reference/faq"
-            ]
-          }
+        "group": "Configuration",
+        "pages": [
+          "configuration/game-shortcut",
+          "configuration/in-game-settings",
+          "configuration/bot-configuration"
+        ]
+      },
+      {
+        "group": "Efficiency",
+        "pages": [
+          "efficiency/xp-farming"
+        ]
+      },
+      {
+        "group": "Advanced Usage",
+        "pages": [
+          "advanced/shadow-pc"
         ]
       }
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Support",
-          "href": "https://discord.gg/apexautomation",
-          "icon": "message-circle"
-        }
       ]
     }
   },

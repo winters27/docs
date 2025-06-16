@@ -1,47 +1,65 @@
 ---
 title: "In-Game Settings"
 description: "Configure your in-game settings for optimal performance with the bot"
-icon: "settings"
+icon: "puzzle-piece"
 ---
-
-## Display Settings
-
-### Windowed Mode
-Call of Duty **must be in Windowed mode**. Press **Alt+Enter** in-game to toggle.
-
-### Resolution
-Use a resolution below 4K (e.g., 1920x1080, 2560x1440).
-
-### Aspect Ratio
-Set to **Automatic**.
-
-## Interface Settings
-
-### Input Device
-Must be set to **Keyboard & Mouse**.
-
-### Text Size/HUD
-Must be set to **Default**.
-
-### HUD Layout/Bounds
-Must be set to **Default**.
-
-## Graphics Settings
-
-### Shader Quality
-Set to **Medium** or higher.
-
-### Texture Resolution
-Set to **Normal**.
-
-## Game Mode Requirements
-
-### Core Modes Only
-Do not use Hardcore modes. The bot relies on visual elements that are not present in Hardcore.
 
 <Warning>
 Incorrect settings will prevent the bot from detecting game states properly and may cause it to fail.
 </Warning>
+
+---
+
+## Display Settings
+
+<CardGroup cols={3}>
+  <Card title="Windowed Mode" icon="window-restore">
+    Call of Duty must be in <strong>Windowed mode</strong>. Press <code>Alt+Enter</code> in-game to toggle.
+  </Card>
+  <Card title="Resolution" icon="maximize">
+    Use a resolution <strong>below 4K</strong> (e.g., 1920x1080 or 2560x1440).
+  </Card>
+  <Card title="Aspect Ratio" icon="arrows-left-right">
+    Set Aspect Ratio to <strong>Automatic</strong>.
+  </Card>
+</CardGroup>
+
+---
+
+## Interface Settings
+
+<CardGroup cols={3}>
+  <Card title="Input Device" icon="keyboard">
+    Must be set to <strong>Keyboard & Mouse</strong>.
+  </Card>
+  <Card title="Text Size / HUD" icon="text">
+    Must be set to <strong>Default</strong>.
+  </Card>
+  <Card title="HUD Layout" icon="window-maximize">
+    HUD layout and bounds must be set to <strong>Default</strong>.
+  </Card>
+</CardGroup>
+
+---
+
+## Graphics Settings
+
+<CardGroup cols={2}>
+  <Card title="Shader Quality" icon="sliders">
+    Set to <strong>Medium</strong> or higher for proper visual detection.
+  </Card>
+  <Card title="Texture Resolution" icon="image">
+    Set to <strong>Normal</strong> to ensure consistency across frames.
+  </Card>
+</CardGroup>
+
+---
+
+## Game Mode Requirements
+
+<error>
+  Only use <strong>Core game modes</strong>. Do <u>not</u> use Hardcore modes—vital visual elements are missing.
+</error>
 
 ---
 
