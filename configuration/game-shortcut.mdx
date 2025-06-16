@@ -1,39 +1,44 @@
-title: 'Game Shortcut Path' description: 'How to find and configure the game shortcut path for Apex Automation.'
-Why Create a Shortcut?
+---
+title: "Game Shortcut Configuration"
+description: "How to find and configure your Call of Duty game shortcut path"
+icon: "link"
+---
+
+# Game Shortcut Configuration
 
 Apex Automation needs the file path to your Call of Duty game shortcut (.lnk or .url file) to launch the game correctly via the selected launcher (Steam, Battle.net, or Game Pass).
-Battle.net Instructions
 
-    Click your Windows key and type Call of Duty.
+## Battle.net Instructions
 
-    Right-click the result and choose Open file location.
+1. Click your Windows key and type **Call of Duty**
+2. Right-click the result and choose **Open file location**
+3. **Note:** You might see two shortcuts. Ensure you select the one that does *not* mention Steam in its properties or name
+4. Right-click the correct Call of Duty shortcut (often ending in `.lnk` or `.url`)
+5. Select **Copy as path** (available in Windows 11 context menu, may require 'Show more options' in Win10/11)
+6. Paste this path into the 'COD Path' field in the Apex Automation Configuration tab
+7. **IMPORTANT:** The pasted path will have double quotes (") at the beginning and end. **You MUST remove these quotes**
+8. Ensure the final path in the config field ends with `.lnk` or `.url`
 
-    Note: You might see two shortcuts. Ensure you select the one that does not mention Steam.
+## Steam Instructions
 
-    Right-click the correct Call of Duty shortcut and select Copy as path.
+1. Open your Steam client
+2. Go to your **Library**
+3. Find **Call of Duty** in your games list on the left
+4. Right-click Call of Duty, navigate to **Manage**
+5. Click **Create desktop shortcut**
 
-    Paste this path into the 'Cod Path' field in the Apex Automation Configuration tab.
+## Game Pass (Xbox App) Instructions
 
-    IMPORTANT: The pasted path will have double quotes (") at the beginning and end. You MUST remove these quotes.
+1. Open the Xbox App on your PC
+2. Find Call of Duty in your installed games list
+3. Click the **[...]** button or "Manage" option for the game
+4. Go to the **General** tab if applicable
+5. Click the button labeled **CREATE DESKTOP SHORTCUT**
 
-    Ensure the final path in the config field ends with .lnk or .url.
+<Warning>
+Remove the quotation marks from the beginning and end of the path, or the bot will not be able to launch your game.
+</Warning>
 
-Steam Instructions
+---
 
-    Open your Steam client.
-
-    Go to your Library.
-
-    Find Call of Duty in your games list.
-
-    Right-click on it, navigate to Manage, and click Create desktop shortcut.
-
-Game Pass (Xbox App) Instructions
-
-    Open the Xbox App on your PC.
-
-    Find Call of Duty in your installed games list.
-
-    Click the [...] button and go to Manage.
-
-    Select the General tab and click CREATE DESKTOP SHORTCUT.
+**Next**: [Bot Configuration](/configuration/bot-configuration)

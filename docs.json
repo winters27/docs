@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "mint",
   "name": "Apex Automation",
   "colors": {
     "primary": "#658a95",
@@ -8,9 +8,22 @@
     "dark": "#4a6b75"
   },
   "favicon": "/favicon.png",
-  "logo": {
-    "light": "/logo.png",
-    "dark": "/logo.png"
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:your-support-email@example.com"
+      },
+      {
+        "label": "Support Server",
+        "href": "https://discord.gg/apexautomation"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Home",
+      "href": "https://apexautomation.app"
+    }
   },
   "navigation": {
     "tabs": [
@@ -95,11 +108,6 @@
           "anchor": "Support",
           "href": "https://discord.gg/apexautomation",
           "icon": "message-circle"
-        },
-        {
-          "anchor": "Downloads",
-          "href": "https://github.com/winters27/apex-automation/releases",
-          "icon": "download"
         }
       ]
     }
@@ -109,17 +117,13 @@
     "strict": true
   },
   "seo": {
-    "title": "Apex Automation Docs",
-    "description": "The official documentation for Apex Automation, the ultimate Call of Duty XP farming bot.",
-    "keywords": ["apex automation", "call of duty", "xp farming", "bot", "automation"]
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:your-support-email@example.com"
-      }
-    ]
+    "metatags": {
+      "theme-color": "#658a95",
+      "og:site_name": "apexautomation.app",
+      "title": "Apex Automation Docs",
+      "description": "The official documentation for Apex Automation, the ultimate Call of Duty XP farming bot.",
+      "keywords": "apex automation, call of duty, xp farming, bot, automation"
+    }
   },
   "footer": {
     "socials": {
